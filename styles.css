@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #FFF1E6;
+}
+
+.main-abdelrahman__img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.main-card__div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto;
+    text-align: center;
+    color: #2b2839;
+    border-bottom: 7px solid #E8D1C5;
+    background: #EDEDE8;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+.main-card__div:hover {
+    border-bottom: 7px solid #EDEDE8;
+    background: #E8D1C5;
+    transition-duration: 1s;
+}
+
+.blue-dot__border {
+    border: 1px dotted blue;
+}
+
+.main-text__div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
